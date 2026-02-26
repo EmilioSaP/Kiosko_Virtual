@@ -977,6 +977,7 @@ GameObject:
   - component: {fileID: 1013532755}
   - component: {fileID: 1013532754}
   - component: {fileID: 1013532753}
+  - component: {fileID: 1013532756}
   m_Layer: 5
   m_Name: Map_pin_FUNDIDORA
   m_TagString: Untagged
@@ -1097,6 +1098,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013532751}
   m_CullTransparentMesh: 1
+--- !u!95 &1013532756
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013532751}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11082612f574d4fd18ddeef8c45cd271, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1199795391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1132,7 @@ GameObject:
   - component: {fileID: 1199795395}
   - component: {fileID: 1199795394}
   - component: {fileID: 1199795393}
+  - component: {fileID: 1199795396}
   m_Layer: 5
   m_Name: Map_pin_BBVA
   m_TagString: Untagged
@@ -1229,6 +1253,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199795391}
   m_CullTransparentMesh: 1
+--- !u!95 &1199795396
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199795391}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11082612f574d4fd18ddeef8c45cd271, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1336000256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1419,7 @@ GameObject:
   - component: {fileID: 1556450369}
   - component: {fileID: 1556450368}
   - component: {fileID: 1556450367}
+  - component: {fileID: 1556450370}
   m_Layer: 5
   m_Name: Map_pin_SANTIAGO
   m_TagString: Untagged
@@ -1493,6 +1540,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556450365}
   m_CullTransparentMesh: 1
+--- !u!95 &1556450370
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556450365}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11082612f574d4fd18ddeef8c45cd271, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1994867313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,6 +1574,7 @@ GameObject:
   - component: {fileID: 1994867317}
   - component: {fileID: 1994867316}
   - component: {fileID: 1994867315}
+  - component: {fileID: 1994867318}
   m_Layer: 5
   m_Name: Map_pin_FASHION
   m_TagString: Untagged
@@ -1625,6 +1695,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994867313}
   m_CullTransparentMesh: 1
+--- !u!95 &1994867318
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994867313}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11082612f574d4fd18ddeef8c45cd271, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2039649775
 PrefabInstance:
   m_ObjectHideFlags: 0
