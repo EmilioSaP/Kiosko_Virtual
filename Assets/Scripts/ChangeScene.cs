@@ -12,7 +12,7 @@ public class ChangeScene : MonoBehaviour
 	{
 		crossfadeScript = FindAnyObjectByType<CrossfadeScript>();
 	}
-	public void ReturnButton(string nombre)
+	public void GoToScene(string nombre)
 	{
 		crossfadeScript.FadeOut();
 		StartCoroutine(DelayScene(nombre));
