@@ -375,18 +375,6 @@ MonoBehaviour:
           m_StringArgument: buttonclick
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 961739754}
-        m_TargetAssemblyTypeName: SeleccionIdioma, Assembly-CSharp
-        m_MethodName: Idioma
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &65019251
 Animator:
   serializedVersion: 7
@@ -2970,6 +2958,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44f0853e59c94415d89c5104b05b6efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
+  audioMixer: {fileID: 0}
+  masterSlider: {fileID: 0}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
+  voiceSlider: {fileID: 0}
+  sfxSource: {fileID: 0}
+  musicSource: {fileID: 0}
+  extramusicSource: {fileID: 0}
+  voiceSource: {fileID: 0}
+  SFXList: []
+  MusicList: []
+  VoiceList: []
 --- !u!1 &949790876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3434,6 +3434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6d60522d7254eafbba2a3423a028b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotateScript
+  speed: 50
 --- !u!1 &1177429256
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,6 +5803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aca860d1f74b4c43b3305c7516f7018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  waitTime: 1
 --- !u!1 &2085127213
 GameObject:
   m_ObjectHideFlags: 0
