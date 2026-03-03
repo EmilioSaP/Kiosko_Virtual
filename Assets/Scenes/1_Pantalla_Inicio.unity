@@ -351,18 +351,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2080881009}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 2_Mapa_Monterrey
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 939723856}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: PlaySFX
@@ -373,6 +361,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: buttonclick
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2080881009}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2_Mapa_Monterrey
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &65019251
@@ -816,18 +816,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2080881009}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 2_Mapa_Monterrey
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 939723856}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: PlaySFX
@@ -840,16 +828,16 @@ MonoBehaviour:
           m_StringArgument: buttonclick
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 961739754}
-        m_TargetAssemblyTypeName: SeleccionIdioma, Assembly-CSharp
-        m_MethodName: Idioma
-        m_Mode: 1
+      - m_Target: {fileID: 2080881009}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2_Mapa_Monterrey
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &218379405
@@ -1142,18 +1130,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2080881009}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 2_Mapa_Monterrey
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 939723856}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: PlaySFX
@@ -1166,16 +1142,16 @@ MonoBehaviour:
           m_StringArgument: buttonclick
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 961739754}
-        m_TargetAssemblyTypeName: SeleccionIdioma, Assembly-CSharp
-        m_MethodName: Idioma
-        m_Mode: 1
+      - m_Target: {fileID: 2080881009}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2_Mapa_Monterrey
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &268071786
@@ -4099,18 +4075,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2080881009}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 2_Mapa_Monterrey
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 939723856}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: PlaySFX
@@ -4123,16 +4087,16 @@ MonoBehaviour:
           m_StringArgument: buttonclick
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 961739754}
-        m_TargetAssemblyTypeName: SeleccionIdioma, Assembly-CSharp
-        m_MethodName: Idioma
-        m_Mode: 1
+      - m_Target: {fileID: 2080881009}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2_Mapa_Monterrey
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &1452397147
@@ -4486,18 +4450,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2080881009}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 2_Mapa_Monterrey
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 939723856}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: PlaySFX
@@ -4510,16 +4462,16 @@ MonoBehaviour:
           m_StringArgument: buttonclick
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 961739754}
-        m_TargetAssemblyTypeName: SeleccionIdioma, Assembly-CSharp
-        m_MethodName: Idioma
-        m_Mode: 1
+      - m_Target: {fileID: 2080881009}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2_Mapa_Monterrey
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!95 &1539012402
