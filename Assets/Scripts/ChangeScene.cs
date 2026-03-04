@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
 	private CrossfadeScript crossfadeScript;
-	public float waitTime = 1.0f;
+	public float waitTime = 0.5f;
 
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
