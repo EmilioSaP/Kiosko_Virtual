@@ -198,6 +198,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 800736397}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &189332155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+  m_PrefabInstance: {fileID: 1071795425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &189332157
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189332155}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: e4f815f5da6256c45893c87f3d07e436, type: 3}
+  m_Controller: {fileID: 9100000, guid: 12e64c89c99892046a2848cb2d0e96ac, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &317211962
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,8 +707,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    m_PressedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -914,8 +941,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    m_PressedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1059,8 +1086,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    m_PressedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1977,10 +2004,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    m_PressedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2214,6 +2241,114 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -223.627}
+--- !u!1001 &1071795425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.7192643
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2892577
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.2523491
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9676363
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -209.233
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7983868210305981752, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: -5501247491266353040, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: -1168564737322957240, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: -253931842486685426, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: 572035176430127122, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: 919132149155446097, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: m_Name
+      value: Joyful Jump
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595327946188629943, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: 5421025521066103573, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    - target: {fileID: 7003327914439893647, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3baad4947aed3c438f638d1d03d8ee7, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 189332157}
+  m_SourcePrefab: {fileID: 100100000, guid: 93119d99e1e5f754db8d82673057d513, type: 3}
 --- !u!1 &1136429708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,8 +2866,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    m_PressedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3239,3 +3374,4 @@ SceneRoots:
   - {fileID: 1175081348}
   - {fileID: 2021252152}
   - {fileID: 775379167}
+  - {fileID: 1071795425}
