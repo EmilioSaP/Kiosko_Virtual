@@ -1701,7 +1701,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1500, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &675364024
 Rigidbody2D:
@@ -1743,14 +1743,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.96599996, g: 0.94652253, b: 0.943782, a: 1}
+  m_Color: {r: 1, g: 0.9796748, b: 0.9796748, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ccd501fc31ad46a09449907afbba9b3, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2371,8 +2371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   Receiver: {fileID: 1291752714}
   cursorVisual: {fileID: 675364023}
+  leonAnimator: {fileID: 0}
   distanciaParaActivar: 150
-  tiempoParaClick: 3
+  tiempoParaClick: 1
   x: 0
   y: 0
   multiplicadorY: 1
@@ -3303,7 +3304,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 631544986}
   m_HandleRect: {fileID: 631544985}
   m_Direction: 0
-  m_Value: 0.5
+  m_Value: 1
   m_Size: 0.72040665
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4244,7 +4245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.571435, y: 0}
+  m_AnchoredPosition: {x: -7.571435, y: -293.573}
   m_SizeDelta: {x: 943.7113, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649120642
