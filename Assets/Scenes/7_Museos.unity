@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 302208339}
   - component: {fileID: 302208338}
   m_Layer: 5
-  m_Name: KDogs
+  m_Name: Conarte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -529,7 +529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.1, y: 4.6}
+  m_AnchoredPosition: {x: 39.1, y: 7.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313868112
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: El lingote
+  m_text: Acero Horno 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
   m_sharedMaterial: {fileID: -3434846102833043320, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
@@ -1138,7 +1138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.1, y: 2.9}
+  m_AnchoredPosition: {x: 39.1, y: 7.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &451382139
@@ -1161,7 +1161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Botanero Moritas
+  m_text: Mucera
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
   m_sharedMaterial: {fileID: -3434846102833043320, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
@@ -1275,7 +1275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.434223, y: -1.7499976}
+  m_AnchoredPosition: {x: 31.434223, y: -1.3499982}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500324257
@@ -1298,9 +1298,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '$$
-
-    Comida Mexicana'
+  m_text: "10:00 AM - 9:00 PM \r\nAdultos $100\r\nNi\xF1os $80\r\nMenores de 3 a\xF1os
+    entrada Gratis "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -1327,8 +1326,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1649,18 +1648,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 592207665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd2f782dc652d5941b4dacd400008d8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ef6d3538dd994743bbc185aeb035dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: extOSC::extOSC.Examples.SimpleMessageReceiver
   Receiver: {fileID: 385735308}
-  cursorVisual: {fileID: 0}
-  eventSystem: {fileID: 0}
+  cursorVisual: {fileID: 675364023}
+  leonAnimator: {fileID: 0}
+  distanciaParaActivar: 150
+  tiempoParaClick: 1
   x: 0
   y: 0
   multiplicadorY: 1
   offsetY: 0
-  posicionDescanso: {x: -1000, y: -1000}
-  suavizado: 0.2
 --- !u!1 &631544984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1771,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1500, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &675364024
 Rigidbody2D:
@@ -1814,14 +1813,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.96599996, g: 0.94652253, b: 0.943782, a: 1}
+  m_Color: {r: 1, g: 0.9796748, b: 0.9796748, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ccd501fc31ad46a09449907afbba9b3, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2386,9 +2385,9 @@ RectTransform:
   - {fileID: 935060651}
   - {fileID: 317211963}
   - {fileID: 979328233}
+  - {fileID: 989044735}
   - {fileID: 675364023}
   - {fileID: 30542501}
-  - {fileID: 989044735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2458,7 +2457,7 @@ GameObject:
   - component: {fileID: 885640212}
   - component: {fileID: 885640211}
   m_Layer: 5
-  m_Name: Sultana
+  m_Name: Papalote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2649,9 +2648,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '$$$
-
-    Comida Mexicana - Internacional'
+  m_text: "M-J 11:00 AM - 6:00 PM\r\nV-D 12:00 PM- 7:00 PM \r\nGeneral $200\r\nNi\xF1os,
+    Escolar e INAPAM $150 "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -2678,8 +2676,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2717,7 +2715,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 7.7949667, w: -10.712284}
+  m_margin: {x: 0, y: 0, z: -15.654008, w: -10.712284}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3115,7 +3113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OMG KDogs
+  m_text: CONARTE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
   m_sharedMaterial: {fileID: -3434846102833043320, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
@@ -3322,7 +3320,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 631544986}
   m_HandleRect: {fileID: 631544985}
   m_Direction: 0
-  m_Value: 0.5
+  m_Value: 1
   m_Size: 0.72040665
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3454,7 +3452,7 @@ GameObject:
   - component: {fileID: 1246940716}
   - component: {fileID: 1246940715}
   m_Layer: 5
-  m_Name: Moritas
+  m_Name: Cera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3864,7 +3862,7 @@ GameObject:
   - component: {fileID: 1480069729}
   - component: {fileID: 1480069728}
   m_Layer: 5
-  m_Name: Carls Jr
+  m_Name: Marco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4212,7 +4210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.571435, y: 0}
+  m_AnchoredPosition: {x: -7.571435, y: -293.573}
   m_SizeDelta: {x: 943.7113, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649120642
@@ -4339,7 +4337,7 @@ GameObject:
   - component: {fileID: 1878237368}
   - component: {fileID: 1878237367}
   m_Layer: 5
-  m_Name: Lingote
+  m_Name: Acero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,9 +4803,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '$$
-
-    Comida Coreana'
+  m_text: "10:00 AM- 8:00 PM \r\nEntrada Libre "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -4834,8 +4830,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4899,7 +4895,7 @@ GameObject:
   - component: {fileID: 2110790526}
   - component: {fileID: 2110790525}
   m_Layer: 5
-  m_Name: restaurantes
+  m_Name: museos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4925,7 +4921,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Restaurantes
+  m_text: Museos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85fa9fd88c3ee5b44b8a061bcf37bbb9, type: 2}
   m_sharedMaterial: {fileID: 7410626073967629836, guid: 85fa9fd88c3ee5b44b8a061bcf37bbb9, type: 2}
