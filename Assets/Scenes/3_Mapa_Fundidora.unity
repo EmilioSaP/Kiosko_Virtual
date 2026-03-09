@@ -1796,7 +1796,7 @@ MonoBehaviour:
   cursorVisual: {fileID: 1985558694}
   leonAnimator: {fileID: 0}
   distanciaParaActivar: 150
-  tiempoParaClick: 2
+  tiempoParaClick: 3
   x: 0
   y: 0
   multiplicadorY: 1

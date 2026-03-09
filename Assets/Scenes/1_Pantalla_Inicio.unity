@@ -2857,7 +2857,7 @@ MonoBehaviour:
   cursorVisual: {fileID: 1919121036}
   leonAnimator: {fileID: 1951714607}
   distanciaParaActivar: 150
-  tiempoParaClick: 1
+  tiempoParaClick: 2
   x: 0
   y: 0
   multiplicadorY: 1
@@ -4044,7 +4044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2e06de8d386c4ad78eecc7337999d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::APIManager
-  showObject: {fileID: 1380246582}
 --- !u!1 &1351769019
 GameObject:
   m_ObjectHideFlags: 0
