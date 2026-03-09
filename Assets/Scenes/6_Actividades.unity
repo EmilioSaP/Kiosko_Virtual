@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "10 AM - 9PM\r\n$120 Adultos\r\n$60 Ni\xF1os (8-12) y Adultos Mayores"
+  m_text: "10:00 - 21:00\r\n$120 Adultos\r\n$60 Ni\xF1os (8-12) y Adultos Mayores"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M-V 3:00 PM - 9:00 PM\r\nS-D 2:00 - 9:00 PM\r\nGeneral $40 \r\nEstudiantes,
+  m_text: "M-V 15:00 - 21:00\r\nS-D 14:00 - 21:00\r\nGeneral $40 \r\nEstudiantes,
     Maestros e INAPAM $25"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -1477,8 +1477,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2562,9 +2562,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'L-V 3:00 PM - 8:15 PM
+  m_text: 'L-V 15:00 - 20:15
 
-    S-D 1:00 PM - 8:15 PM
+    S-D 13:00 - 20:15
 
     $150-$180
 
@@ -2872,7 +2872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.1, y: 4.5}
+  m_AnchoredPosition: {x: 39.1, y: 3.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102836451
@@ -4277,7 +4277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.434223, y: -3.4999986}
+  m_AnchoredPosition: {x: 31.434223, y: -3.1999984}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082432435
@@ -4300,7 +4300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "10 AM - 9 PM \r\n$ 100 por 20 Minutos"
+  m_text: "10:00 - 21:00 \r\n$100 por 20 Minutos"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
