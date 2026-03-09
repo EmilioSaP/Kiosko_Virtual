@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd4220571a727e649be93e11919678df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3e0d285544b2e2f4795592f60d4ca750, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd4220571a727e649be93e11919678df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 11725d95072124a4494c8ca6e35c1aef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1138,7 +1138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.1, y: 7.9}
+  m_AnchoredPosition: {x: 39.1, y: 7.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &451382139
@@ -1161,7 +1161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mucera
+  m_text: Museo de Cera
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
   m_sharedMaterial: {fileID: -3434846102833043320, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
@@ -1298,7 +1298,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "10:00 AM - 9:00 PM \r\nAdultos $100\r\nNi\xF1os $80\r\nMenores de 3 a\xF1os
+  m_text: "10:00 - 21:00 \r\nAdultos $100\r\nNi\xF1os $80\r\nMenores de 3 a\xF1os
     entrada Gratis "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -1502,7 +1502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.434223, y: -1.649995}
+  m_AnchoredPosition: {x: 31.434223, y: -3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554926404
@@ -1525,9 +1525,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '$
+  m_text: 'M-V 9:00 - 18:00
 
-    Postres'
+    S-D 10:00 - 19:00
+
+    Entrada General $215'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -1554,8 +1556,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1593,7 +1595,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 7.7949667, w: -10.712284}
+  m_margin: {x: 0, y: 0, z: -13.93944, w: -10.712284}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2648,8 +2650,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M-J 11:00 AM - 6:00 PM\r\nV-D 12:00 PM- 7:00 PM \r\nGeneral $200\r\nNi\xF1os,
-    Escolar e INAPAM $150 "
+  m_text: "M-J 11:00 - 18:00\r\nV-D 12:00 - 19:00\r\nGeneral $200\r\nNi\xF1os, Escolar
+    e INAPAM $150 "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -2676,8 +2678,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2715,7 +2717,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -15.654008, w: -10.712284}
+  m_margin: {x: 0, y: 0, z: -7.229311, w: -10.712284}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2953,7 +2955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.1, y: 2.9000034}
+  m_AnchoredPosition: {x: 39.1, y: 7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016464409
@@ -2976,7 +2978,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Carl's Jr
+  m_text: Museo Marco
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
   m_sharedMaterial: {fileID: -3434846102833043320, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
@@ -3421,7 +3423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd4220571a727e649be93e11919678df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c2bfaa95dda766e42be5882810efb9dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3643,7 +3645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd4220571a727e649be93e11919678df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7848829d5d9923b4884ffd6b5124f418, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3831,7 +3833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd4220571a727e649be93e11919678df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a734c8d9ef2f42d4cb889e4c4fc0f477, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4030,7 +4032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.1, y: 3.0000029}
+  m_AnchoredPosition: {x: 39.1, y: 4.2499948}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523205492
@@ -4053,7 +4055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Helados Sultana
+  m_text: "Papalote Museo del Ni\xF1o"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
   m_sharedMaterial: {fileID: -3434846102833043320, guid: 4d60fe08bda320b4da125d61e69f5197, type: 2}
@@ -4119,7 +4121,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 30.939804, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4505,7 +4507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.434223, y: -1.7499962}
+  m_AnchoredPosition: {x: 31.434223, y: -1.149997}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957814898
@@ -4528,7 +4530,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "$$\nComida R\xE1pida"
+  m_text: "M-D 10:00 - 18:00\nEntrada General $90\nEscolar e INAPAM $60\nMenores
+    de 5 a\xF1os entrada Gratis \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
@@ -4555,8 +4558,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4594,7 +4597,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 7.7949667, w: -10.712284}
+  m_margin: {x: 0, y: 0, z: -14.078966, w: -10.712284}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4803,7 +4806,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "10:00 AM- 8:00 PM \r\nEntrada Libre "
+  m_text: '10:00 - 20:00
+
+    Entrada Libre '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}
   m_sharedMaterial: {fileID: 3412219033064330899, guid: f3c1fafbffa04e34cb9eb4cae71ff013, type: 2}

@@ -22,16 +22,16 @@ EditorBuildSettings:
     guid: 4e05bc4660e4b6e439bf8afbf8d06331
   - enabled: 1
     path: Assets/Scenes/6_Actividades.unity
-    guid: 8f2067d541319db4fa680f335cd8f087
+    guid: d307a922012ed904cae78b145e034507
   - enabled: 1
     path: Assets/Scenes/7_Museos.unity
-    guid: 6f58520cdc248fe419730886ee8d1e77
+    guid: 1ff29cfeaf474ea4d942d826c7a57ed7
   - enabled: 1
     path: Assets/Scenes/8_Explora_Monterrey.unity
-    guid: bcfb7fd84f011094095c6527ec5f01ef
+    guid: 7bbdacb0e38f30d42a17bf226fa6e10e
   - enabled: 1
     path: Assets/Scenes/9_Rutas.unity
-    guid: 4efa0dc0ccfad73458dbecdac37fe3e2
+    guid: 1694ff050930e4e42a0cc9afef8d1cff
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 3bf40ae4612e848749645e83f44bac83, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
