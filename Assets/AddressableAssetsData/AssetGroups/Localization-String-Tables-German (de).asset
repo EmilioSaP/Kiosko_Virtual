@@ -21,6 +21,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-de
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54e0747efb4824d239f6cc1cf58ae221
+    m_Address: PopupText_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba390e28432c84991904e86155ff4266
+    m_Address: Mapa_Monterrey_Table_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 691b443850a7f4baa818e200dd449c45, type: 2}
   m_SchemaSet:

@@ -15,6 +15,18 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Korean (ko)
   m_GUID: d534f9c95ddd44fd5a30ac6bcfbe5a99
   m_SerializeEntries:
+  - m_GUID: 7c7ddc2c6510b46faba3a853ec6f06e2
+    m_Address: Mapa_Monterrey_Table_ko
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ko
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bef4d1694c777455097426ba1161b638
+    m_Address: PopupText_ko
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ko
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec955ec7cb14242fb9ea157e51dc8f77
     m_Address: MenuTextDescubre_ko
     m_ReadOnly: 1

@@ -15,6 +15,18 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: 9ca126808149a48dc90b3b78b86303f6
   m_SerializeEntries:
+  - m_GUID: 17928a8aa9ba94b578f7ed16b264d17c
+    m_Address: PopupText_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 925f46500731c4e6f8e56d25fd82f1e2
+    m_Address: Mapa_Monterrey_Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c695e00210d13418bb0231376f9bc3d9
     m_Address: MenuTextDescubre_en
     m_ReadOnly: 1

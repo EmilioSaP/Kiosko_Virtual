@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PopupText_es
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 4b524655b6970426d9db1f0c9e0997e7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6927933440
+    m_Localized: "El Horno 3 es un antiguo horno alto de la Fundidora de Monterrey
+      que hoy funciona como museo y centro interactivo de ciencia y tecnolog\xEDa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189564706816
+    m_Localized: "Las chimeneas del Parque Fundidora son antiguas estructuras industriales
+      que serv\xEDan para ventilar los hornos de la acerera; hoy, son monumentos
+      hist\xF3ricos y s\xEDmbolos del legado industrial de Monterrey"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275862511616
+    m_Localized: "La Cineteca Nuevo Le\xF3n \"Alejandra Rangel Hinojosa\" es el principal
+      espacio cultural de Monterrey dedicado a la difusi\xF3n, preservaci\xF3n y
+      exhibici\xF3n del s\xE9ptimo arte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379457626112
+    m_Localized: "Es una monumental fuente ornamental ubicada en un ectremo de Paseo
+      Santa Luc\xEDa que rinde tributo al pasado industrial de Monterrey al simular
+      el vertido de acero l\xEDquido."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -15,6 +15,16 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: f49c97802858b4b0086107041616999c
   m_SerializeEntries:
+  - m_GUID: 4b524655b6970426d9db1f0c9e0997e7
+    m_Address: Assets/Locales/PopupText Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82b3f5b62623640429b2f86b861441a4
+    m_Address: Assets/Locales/Mapa_Monterrey_Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f38b872d63f30424188a0fe4b370dac5
     m_Address: Assets/Locales/MenuTextDescubre Shared Data.asset
     m_ReadOnly: 1
