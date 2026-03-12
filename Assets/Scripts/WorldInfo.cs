@@ -22,7 +22,7 @@ public class WorldInfo : MonoBehaviour
     public int idiomaID = 2;
     public bool completada = false;
     public float secondsElapsed = 0f;
-    public string review = "";
+    public string review = "";  //"Buena","Mala","Normal"
 
     public int edad = 0;
     public string genero = "";
@@ -95,6 +95,15 @@ public class WorldInfo : MonoBehaviour
     //NO SUBIR A LA BASE DE DATOS
     public float music = 50f;
     public float volume = 80f;
+    public bool isRunning = false;
+
+    void Update()
+    {
+        if (isRunning)
+        {
+            secondsElapsed += Time.deltaTime;
+        }
+    }
 }
 
 

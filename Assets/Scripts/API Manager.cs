@@ -5,6 +5,8 @@ using System.Text;
 
 public class APIManager : MonoBehaviour
 {
+    //public ChangeScene changeScene;
+    public SetWorldInfo setWorldInfo;
 
     string baseURL = "http://localhost:3000";
 
@@ -57,6 +59,7 @@ public class APIManager : MonoBehaviour
         {
             Debug.LogError("Error enviando sesión: " + request.error);
         }
+        setWorldInfo.ResetWorldInfo();
 
     }
 }
